@@ -1,0 +1,68 @@
+body {
+    background-color: pink
+}
+div {
+    width: 550px;
+    margin: 0 auto
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    border: 10px transparent;
+    text-align: center;
+    font-family: 'Ariel', sans-serif;
+}
+h1:hover {color:black}
+
+.lesson {
+    color:white;
+    text-align: center;
+    font-family: 'Ariel', sans-serif;
+    font-weight: normal;
+}
+
+.theman {
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size:1em;
+    font-family: 'Ariel', sans-serif;
+}
+
+ol {
+    font-family: 'Ariel', Times, serif;
+    font-weight: 900;
+}
+
+/* image */
+.center { 
+    width : 200px;
+    height : 300px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.q {
+   color: white;
+   font-size: 1.6em;
+   width:400px;
+   text-align: center;
+   margin: 50px;
+   font-family:'Times New Roman', Times, serif;
+   font-weight: 520;
+}
+
+
+.lds{
+    color:black;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Ariel', Times, serif;
+    font-weight: 600;
+}
