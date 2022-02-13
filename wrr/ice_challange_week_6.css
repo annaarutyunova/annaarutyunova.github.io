@@ -1,0 +1,43 @@
+main {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    color: black;
+}
+
+section {
+    display:grid;
+    grid-template-rows: auto;
+    grid-row-gap:15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.subscribe {
+    text-align: center;
+}
+button {
+    background-color: rgb(216, 133, 25);
+    color:white;
+    font-weight: bold;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+.input {
+    padding: 20px;
+    border-radius: 8px;
+}
+.text {
+    text-align: center;
+}
+img {
+    width:100%;
+}
+
+a {
+    float:right;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

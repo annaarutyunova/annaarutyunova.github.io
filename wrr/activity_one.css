@@ -1,0 +1,27 @@
+.content1 {
+    display: grid;
+    grid-template-rows: 2fr;
+  
+  }
+  .red1 { 
+    width: 100px; 
+    height: 100px; 
+    background-color: red; 
+  
+  } 
+  .green1 {
+    width: 100px; 
+    height: 100px; 
+    background-color: green; 
+  
+  } 
+  .yellow1 {
+    width: 100px; 
+    height: 100px; 
+    background-color: gold; 
+  } 
+  .blue1 {
+    width: 100px; 
+    height: 100px; 
+    background-color: blue; 
+  } 
