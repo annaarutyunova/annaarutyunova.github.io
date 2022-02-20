@@ -41,3 +41,21 @@ a {
     color: black;
     font-weight: bold;
 }
+
+/* @media screen and max-width:900px {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and min-width:900px {
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and min-width: 1280px {                     The @media screen min-width:900px applies to 1280px as well
+    main {
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+} */
