@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+    
+}
+div {
+    background-color: white;
+    text-align:center;
+
+    
+}
+
+#round{
+    border-radius: 25px;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+}
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgb(74, 74, 150);
+    color:white;
+    /* border: 1px solid white; */
+    
+}
+.middle_grid {
+    border-left: solid rgb(168, 167, 167);
+    border-right:solid rgb(168, 167, 167);
+    border-width: 1.5px;
+}
+h5 {
+    color:rgb(62, 62, 165)
+}
+
+.sup {
+    vertical-align:top;
+    position: relative;
+    top: -0.3em ;
+}
+
+.numbers {
+    font-size:larger
+}
+.words {
+    font-size: small;
+}
+
+.text{
+    padding: 20px;
+}
