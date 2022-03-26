@@ -7,7 +7,7 @@
 
 body {
     background-color: whitesmoke;
-    font-family: 'Libre Franklin', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-weight: 100;
     font-size: 22px;
     margin: 0;
@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    color: blue;
+    color: black;
 }
 
 #hero {
@@ -126,7 +126,7 @@ nav a:hover {
 }
 
 .book:hover, .join:hover {
-    color: blue;
+    color: gray;
 }
 
 
@@ -214,7 +214,6 @@ h2 {
 footer {
     background-color: lightgrey;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -238,6 +237,99 @@ section h2 {
     font-family: 'Libre Franklin', 'Rock Salt', 'Bradley Hand', sans-serif;
     font-weight: 500;
 }
+
+.pageheader {
+    background-color: rgb(151, 107, 57);
+}
+
+#rate_page_grid {
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+    row-gap: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+.grand3 {
+    margin-top: 100px;
+    grid-column:2;
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+
+}
+.grand6 {
+    grid-column: 2;
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+}
+.snake3 {
+    grid-column: 2;
+    text-align: center;
+    background-color:rgb(212, 212, 212);;
+}
+.snake6 {
+    grid-column: 2;
+    text-align: center;
+    background-color:rgb(212, 212, 212);
+    margin-bottom: 100px;
+}
+.pic {
+    max-width:500px;
+    max-height:440px;
+    padding: 20px;
+}
+.grand3info {
+    margin-top: 100px;
+    grid-column: 4;
+    line-height: 3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgb(212, 212, 212);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.grand6info  {
+    grid-column: 4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgb(212, 212, 212);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.grand6info .tripdates {
+    line-height: 3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.snake3info {
+    grid-column: 4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgb(212, 212, 212);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.snake3info p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 3;
+}
+.snake6info {
+    grid-column: 4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgb(212, 212, 212);
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height:3;
+    margin-bottom:100px;
+}
+.rates_heading {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
