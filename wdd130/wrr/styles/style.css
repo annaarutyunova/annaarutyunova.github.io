@@ -249,7 +249,7 @@ section h2 {
     font-family: 'Roboto', sans-serif;
 }
 .grand3 {
-    margin-top: 100px;
+    margin-top: 60px;
     grid-column:1;
     text-align: center;
     background-color: rgb(212, 212, 212);
@@ -286,7 +286,7 @@ section h2 {
     padding-right: 20px;
 }
 .grand3info {
-    margin-top: 100px;
+    margin-top: 60px;
     grid-column: 2;
     line-height: 3;
     font-family: 'Roboto', sans-serif;
@@ -342,7 +342,7 @@ section h2 {
 .rates_heading {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .grand3info p {
     margin-top:10px;
@@ -357,6 +357,10 @@ section h2 {
 }
 .snake6info p {
     margin-top:10px;
+}
+#main {
+    margin-left:80px;
+    margin-right:80px;
 }
 
 
