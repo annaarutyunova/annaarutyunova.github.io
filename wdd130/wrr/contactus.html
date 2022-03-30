@@ -22,31 +22,33 @@
                     <a href='contactus.html'>Contact Us</a>
                 </nav>
             </header>
-            <div id="image_div">
-                <img src='images/background_image.jpg' alt='People enjoying rafting'>
+            <div class="image_main_div">
+                <div id="image_div">
+                    <img src='images/background3.jpg' alt='People enjoying rafting'>
+                </div>
+                <main class='main_grid'>
+                    <div id="feedback"></div>
+                        <form action="/my-handling-form-page" method="post">
+                            <ul>
+                            <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name">
+                            </li>
+                            <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_email">
+                            </li>
+                            <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                            </li>
+                            <li class="button">
+                                <button type="submit">Send your message</button>
+                            </li>
+                            </ul>
+                        </form>
+                </main>
             </div>
-            <main class='home-grid'>
-                <div id="feedback"></div>
-                    <form action="/my-handling-form-page" method="post">
-                        <ul>
-                        <li>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name">
-                        </li>
-                        <li>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_email">
-                        </li>
-                        <li>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                        </li>
-                        <li class="button">
-                            <button type="submit">Send your message</button>
-                        </li>
-                        </ul>
-                    </form>
-            </main>
          </div>
     </div>
         <footer>
