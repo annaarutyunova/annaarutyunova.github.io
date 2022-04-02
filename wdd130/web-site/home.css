@@ -1,13 +1,18 @@
 body {
     background-color: black;
+    box-sizing: border-box;
+}
+header {
+    z-index: 0;
 }
 #home_page_header {
     text-align:center;
+    font-size:1.3em;
 }
 /* logo image */
 .logo {
     max-width: 180px;
-    padding:30px;
+    padding:20px;
 }
 #home_page_header nav {
     padding-bottom: 20px;
@@ -15,35 +20,136 @@ body {
 #home_page_header nav a {
     text-decoration: none;
     color: white;
-    padding-left: 20px;
-    padding-right:20px;
+    margin-left: 50px;
+    margin-right:50px;
+    padding-bottom: 13px;
 }
 #home_page_header nav a:hover{
-    color:rgb(226, 140, 11);
+
+    border-bottom: 2px solid rgb(226, 140, 11);
+
 }
-.home_page_video_div {
+.home_page_video {
     justify-self: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-#myVideo {
-    /* position:fixed; */
-    /* right: 0;
-    bottom: 0; */
-    max-width: 100%;
-    max-height: 20%;
-    z-index:-1;
+.text p {
+    color:white;
+    line-height:2.7;
+    font-size:1.1em;
+    /* margin-left: 80px; */
+    /* padding: 20; */
+}
+.text {
+    background-color: rgba(0,0,0,0.65);
+    grid-column: 3;
+    grid-row:1; 
+    margin-left: 80px;
+    padding: 20px;
+    /* display:flex; */
+    align-items:center;
+}
+.text h3 {
+    color:white;
+    font-size: 1.4em;
 }
 
-.content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0,0,0,0.5);
-    color: #f1f1f1;
+
+#myVideo {
     width: 100%;
-    padding: 20px;
+    height:600px;
+    object-fit: cover;
+    object-position: top;
+    z-index:-1;
+    grid-column:1/4;
+    grid-row:1;
+    margin-bottom: 80px;
+}
+footer {
+    position:absolute;
+    width:100%;
+    background-color:rgb(30, 30, 30);
+    color:white;
+    text-align:center;
+    margin-top:80px;
+    padding-top: 13px;
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+}
+footer img {
+    margin:10px;
+    width:30px;
+    border-radius:25%;
+}
+footer h4 {
+    margin:2px;
+    padding-bottom: 5px;
+}
+.copyright {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home_bottom_videos { 
+    display:flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 70px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.home_bottom_videos > * {
+    flex: 1;
+} 
+
+.european_variety_shows {
+    background-image: url("./images/old mic1.jpg");
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-size: cover;
+    margin-bottom: 20px;
     
 }
-
-header {
-    z-index: 0;
+.european_text_box {
+    background-color: rgba(255,255,255,0.16);
+    margin: 20px 50% 30% 10px;
+    font-size:1.2em;
+    line-height: 2em;
+    padding: 30px;
+    color: white;
+    filter: drop-shadow(0 0 2px #000)
 }
 
+
+
+@media screen and (max-width: 900px) {
+    .text, .home_page_video_div {
+        display: block;
+        height: auto;
+    }
+    .text {
+        grid-column:1/4;    
+        grid-row: 2;
+        margin:5px;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    iframe {
+        display: block;
+        padding: 10px;
+        margin-bottom:10px;
+        width: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}

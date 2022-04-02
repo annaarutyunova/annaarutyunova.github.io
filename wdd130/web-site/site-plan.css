@@ -81,7 +81,10 @@ p {
   width: 25%;
   height: 3em;
 }
-
+video {
+  width:400px;
+  height:400px;
+}
 .primary {
   background-color: var(--primary-color);
 }
