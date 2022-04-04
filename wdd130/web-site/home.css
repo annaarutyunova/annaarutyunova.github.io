@@ -256,7 +256,6 @@ section a {
 .zhenya:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -279,13 +278,12 @@ section a {
   width: 110%;
   height: 66%;
   object-fit: cover;
-  object-position: cover;
+  object-position:top;
   margin-left: -13px;
 }
 .ruslan:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -319,7 +317,6 @@ section a {
 .nurlan:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -351,7 +348,6 @@ section a {
 .ivan:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -384,7 +380,6 @@ section a {
 .alex:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -416,7 +411,6 @@ section a {
 .zoya:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -447,7 +441,6 @@ section a {
 .abramov:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -458,6 +451,7 @@ section a {
   background-color: rgba(30,30,30,0.8);
   margin:0;
   display:block;
+  height: 86%;
 }
 .slava {
   grid-column: 3;
@@ -480,7 +474,6 @@ section a {
 .slava:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -514,7 +507,6 @@ section a {
 .vika:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -546,7 +538,6 @@ section a {
 .stas:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -557,6 +548,7 @@ section a {
   background-color: rgba(30,30,30,0.8);
   margin:0;
   display:block;
+  height: 86%;
 }
 
 .guram {
@@ -581,7 +573,6 @@ section a {
 .guram:hover a {
   text-decoration: none;
   position: absolute;
-  height:cover;
   left: 0;
   bottom: 0;
   right: 0;
@@ -602,8 +593,6 @@ section a {
     margin-bottom: -40px;
     margin-left: 70px;
     margin-right: 70px;
-    
-
     display:flexbox;
     columns: 3;
     gap: 50px;
@@ -637,7 +626,6 @@ section a {
         display: block;
         padding: 10px;
         margin-bottom:10px;
-        width: 0 auto;
     }
     footer {
         margin-top: 25px;
