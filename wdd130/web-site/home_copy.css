@@ -33,7 +33,6 @@ header {
     justify-self: center;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 50px;
 }
 .text p {
     color:white;
@@ -115,7 +114,6 @@ footer h4 {
     height: calc(100vh - 180px);
     background-size: cover;
     margin-bottom: 20px;
-    margin-top: 50px;
     
 }
 .european_text_box {
@@ -221,397 +219,381 @@ h3 {
     text-align: center;
   } */
 
-  .comedians_main_grid {
-    display:grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-top: 50px;
-    gap: 70px;
+.comedians_main_grid {
+      display:grid;
+      grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      margin-top: 50px;
+      gap: 70px;
 }
 .bold {
-  color: orange;
-  font-size: 1.2em;
+    color: orange;
+    font-size: 1.2em;
 }
 section a {
-  color: white;
-  font-size: 1.1em;
+    color: white;
+    font-size: 1.1em;
 }
 
 .zhenya {
-  grid-column: 2;
-  grid-row:1;  
-  position: relative;
-  overflow: hidden;
+    grid-column: 2;
+    grid-row:1;  
+    position: relative;
+    overflow: hidden;
 }
 .zhenya img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
-  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    
 }
 .zhenya_text a {
-  display:none;
+    display:none;
 }
 .zhenya:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
 }
 
 .ruslan {
-  grid-column: 3;
-  grid-row: 1;
-  position: relative;
-  overflow: hidden;
+    grid-column: 3;
+    grid-row: 1;
+    position: relative;
+    overflow: hidden;
 }
 .ruslan img {
-  width: 110%;
-  height: 66%;
-  object-fit: cover;
-  object-position: cover;
-  margin-left: -13px;
+    width: 110%;
+    height: 66%;
+    object-fit: cover;
+    object-position: cover;
+    margin-left: -13px;
 }
 .ruslan:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
-  height: 60%
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
+    height: 60%
 }
 .ruslan_text a {
-  display: none;
+    display: none;
 }
 .nurlan {
-  grid-column: 4;
-  grid-row: 1;
-  position: relative;
-  overflow: hidden;
+    grid-column: 4;
+    grid-row: 1;
+    position: relative;
+    overflow: hidden;
 }
 .nurlan img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 .nurlan_text a {
-  display: none;
+    display: none;
 }
 .nurlan:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
 }
 
 .ivan {
-  grid-column: 3;
-  grid-row:2;
-  position: relative;
-  overflow: hidden;
-  transform: translateY(-160px);
+    grid-column: 3;
+    grid-row:2;
+    position: relative;
+    overflow: hidden;
+    transform: translateY(-160px);
 }
 .ivan img {
-  width: 100%;
-  height: 66%;
-  object-fit: cover;
-  object-position: top;
+    width: 100%;
+    height: 66%;
+    object-fit: cover;
+    object-position: top;
 }
 .ivan_text a {
-  display: none;
+    display: none;
 }
 .ivan:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
-  height: 60%;
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
+    height: 60%;
 }
 .alex {
-  grid-column: 2;
-  grid-row:2;
-  position: relative;
-  overflow: hidden;
+    grid-column: 2;
+    grid-row:2;
+    position: relative;
+    overflow: hidden;
 }
 
 .alex img {
-  width: 135%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
-  margin-left: 0px;
+    width: 135%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 0px;
 }
 .alex_text a {
-  display: none;
+    display: none;
 }
 .alex:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
 }
 .zoya {
-  grid-column: 4;
-  grid-row:2;
-  position: relative;
-  overflow: hidden;
+    grid-column: 4;
+    grid-row:2;
+    position: relative;
+    overflow: hidden;
 }
 
 .zoya img {
-  width: 175%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  margin-left: -90px;
+    width: 175%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: -90px;
 }
 .zoya_text a {
-  display: none;
+    display: none;
 }
 .zoya:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
 }
 .abramov {
-  grid-column: 2;
-  grid-row:3;
-  position: relative;
-  overflow: hidden;
+    grid-column: 2;
+    grid-row:3;
+    position: relative;
+    overflow: hidden;
 }
 
 .abramov img {
-  width: 160%;
-  object-fit: cover;
-  object-position: center;
-  margin-left: -75px;
+    width: 160%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: -75px;
 }
 .abramov_text a {
-  display: none;
+    display: none;
 }
 .abramov:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
 }
 .slava {
-  grid-column: 3;
-  grid-row:3;
-  position: relative;
-  overflow: hidden;
-  transform: translateY(-330px);
+    grid-column: 3;
+    grid-row:3;
+    position: relative;
+    overflow: hidden;
+    transform: translateY(-330px);
 }
 
 .slava img {
-  width: 160%;
-  height: 66%;
-  object-fit: cover;
-  object-position: center;
-  margin-left: -75px;
+    width: 160%;
+    height: 66%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: -75px;
 }
 .slava_text a {
-  display: none;
+    display: none;
 }
 .slava:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
-  height: 60%;
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
+    height: 60%;
 }
 .vika {
-  grid-column: 3;
-  grid-row:3;
-  position: relative;
-  overflow: hidden;
-  transform: translateY(65px);
+    grid-column: 3;
+    grid-row:3;
+    position: relative;
+    overflow: hidden;
+    transform: translateY(65px);
 }
 
 .vika img {
-  width: 160%;
-  height: 66%;
-  object-fit: cover;
-  object-position: center;
-  margin-left: -75px;
+    width: 160%;
+    height: 66%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: -75px;
 }
 .vika_text a {
-  display: none;
+    display: none;
 }
 .vika:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
-  height: 60%;
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
+    height: 60%;
 }
 .stas {
-  grid-column: 4;
-  grid-row:3;
-  position: relative;
-  overflow: hidden;
+    grid-column: 4;
+    grid-row:3;
+    position: relative;
+    overflow: hidden;
 }
 
 .stas img {
-  width: 173%;
-  object-fit: cover;
-  object-position: center;
-  margin-left: -70px;
+    width: 173%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: -70px;
 }
 .stas_text a {
-  display: none;
+    display: none;
 }
 .stas:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
 }
 
 .guram {
-  position: relative;
-  overflow: hidden;
-  width: 70%;
-  height: 300px;
-  margin: 0 auto;
-  margin-top: 30px
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px
 
 }
 
 .guram img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .guram_text a {
-  display: none;
+    display: none;
 }
 .guram:hover a {
-  text-decoration: none;
-  position: absolute;
-  height:cover;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  color: white;
-  padding: 15px;
-  line-height: 1.4;
-  background-color: rgba(30,30,30,0.8);
-  margin:0;
-  display:block;
-  width: 100%
+    text-decoration: none;
+    position: absolute;
+    height:cover;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 15px;
+    line-height: 1.4;
+    background-color: rgba(30,30,30,0.8);
+    margin:0;
+    display:block;
+    width: 100%
 }
 
-/* Watch Page */
-.watch {
-    /* margin: 20px 70px; */
-    margin-top: 20px;
-    margin-bottom: -40px;
-    margin-left: 70px;
-    margin-right: 70px;
-    
 
-    display:flexbox;
-    columns: 3;
-    gap: 50px;
-    row-gap: 50px;
-}
-.watch iframe {
-    width: 100%;
-}
 
 
 
@@ -687,4 +669,5 @@ section a {
         margin: 0;
         padding: 0;
     }
+
 }
