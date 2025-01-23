@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "name": "KarNag",
+      "description": "Created a car maintenance app with React Native, Expo Go, and Firebase. Integrated CarMD API to display upcoming maintenance based on mileage.",
+      "skills": ["React Native", "Expo Go", "Firebase", "CarMD API"],
+      "image": "./karnag.png",
+      "url": "https://github.com/annaarutyunova/KarNag",
+      "videourl": "https://www.youtube.com/watch?v=ANg1xOGTp5E"
+    },
+    {
+      "name": "Plums",
+      "description": "Partnered with another developer to build a responsive note-taking app, utilizing React, Next.js, Tailwind CSS, and Prisma for efficient database management and performance optimization through server-side rendering.",
+      "skills": ["React", "Tailwind", "Next.js", "MongoDB", "Figma"],
+      "image": "./plums.png",
+      "url": "https://github.com/JoshuaHerring/plums",
+      "videourl": "https://www.youtube.com/watch?v=_WSOTPidEI8"
+    },
+    {
+      "name": "TimeKeeper",
+      "description": "Engineered a Chrome extension in a 24-hour Hackathon as part of a team of 3, enabling users to track time spent on personal tasks and projects.",
+      "skills": ["Javascript", "Browser Dev Tools"],
+      "image": "./timekeeper.png",
+      "url": "https://github.com/annaarutyunova/chrome_extension_timekeeper"
+    },
+    {
+      "name": "Car Dealership",
+      "description": "Collaborated as a team of 4 to develop a backend application operating Node.js and Express and integrate a Postgres database.",
+      "skills": ["Node.js", "Express.js", "Postgres", "Render"],
+      "image": "./delorean.png",
+      "url": "https://examplenodejsapp.onrender.com/"
+    },
+    {
+      "name": "The Duck Game",
+      "description": "Teamed up with a peer to explore game development, utilizing Godot and GDScript to create a game.",
+      "skills": ["GDScript", "Godot"],
+      "image": "./ducky.png",
+      "url": "https://conhop.itch.io/duck-game"
+    },
+    {
+      "name": "StandUp",
+      "description": "Used HTML and CSS to make a website about Russian Stand-up Comedy, because I love it!",
+      "skills": ["HTML", "CSS"],
+      "image": "./standup.png",
+      "url": "https://github.com/annaarutyunova/standup_website"
+    }
+  ]
+}

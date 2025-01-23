@@ -1,0 +1,25 @@
+{
+  "experience": [
+    {
+      "date": "APR - DEC 2024",
+      "role": "Web Backend Development Teaching Assistant",
+      "company": "BYU - Idaho",
+      "description": "Provided technical support in Node.js, helping 15+ students weekly troubleshoot and understand backend development concepts, contributing to measurable improvements in understanding. Graded assignments, enhancing students’ comprehension through detailed feedback. Revised assignment clarity and reduced common errors by collaborating with professors to refine materials.",
+      "skills": ["JavaScript", "Node.js", "Express.js", "Postgres", "Render"]
+    },
+    {
+      "date": "JAN - APR 2024",
+      "role": "Full-Stack Web Development Intern",
+      "company": "The Aero Corp",
+      "description": "Devised a Ruby and Waxx backend for a web store selling plane parts, utilizing Postgres for database management, designed to streamline inventory tracking and sales. Designed dynamic front-end features with HTML, CSS, Bootstrap, JavaScript, and jQuery, revamping user interface responsiveness and contributing to a more engaging user experience for potential customers. Demonstrated initiative by resolving technical challenges and advancing project development, ensuring consistent progress with limited supervision.",
+      "skills": ["JavaScript", "jQuery", "HTML & CSS", "Bootstrap", "Ruby", "Waxx", "Postgres"]
+    },
+    {
+      "date": "JAN - APR 2023",
+      "role": "Data Engineer Intern",
+      "company": "The Church of Jesus Christ of Latter-day Saints",
+      "description": "Ensured accuracy of data migrations involving 10M+ records across multiple data stores using Microsoft SQL Server, preparing for future cloud migration. Wrote automated testing scripts to validate data migrations, identifying and resolving 100+ inconsistencies, reducing hours of manual testing time and improving data accuracy. Maintained and optimized data warehouses using dimensional modeling techniques, improving data storage efficiency and retrieval processes.",
+      "skills": ["SQL", "Microsoft SQL Server"]
+    }
+  ]
+}
