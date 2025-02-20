@@ -742,10 +742,6 @@ video {
   border-top-right-radius: 0.5rem;
 }
 
-.border-b {
-  border-bottom-width: 1px;
-}
-
 .border-b-4 {
   border-bottom-width: 4px;
 }
