@@ -3,3 +3,6 @@ https://blog.logrocket.com/dark-mode-react-in-depth-guide/#what-dark-mode
 https://www.youtube.com/watch?v=sy-rRtT84CQ
 
 https://www.pluralsight.com/resources/blog/guides/fetch-data-from-a-json-file-in-a-react-app
+
+// Scroll to sections
+https://www.youtube.com/watch?v=MjHlltcA-nA
